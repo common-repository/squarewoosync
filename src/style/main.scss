@@ -1,0 +1,113 @@
+/* Base styles for toplevel_page_square-woo-sync */
+.toplevel_page_squarewoosync {
+  .wp-menu-image {
+    @apply text-white;
+  }
+  #wpbody-content {
+    height: 100%;
+    @apply bg-gray-100;
+  }
+
+  #wpfooter {
+    @apply hidden;
+  }
+  .notice {
+    @apply mx-20 mt-2 hidden;
+  }
+  .wp-submenu li:last-of-type {
+    @apply text-green-600;
+  }
+}
+#screen-meta, #screen-meta-links {
+  display: none !important;
+}
+
+/* Base styles for wpcontent */
+#wpcontent {
+  padding-left: 0 !important;
+}
+
+/* Styles for square-woo-sync */
+#square-woo-sync {
+  @apply bg-gray-100 mx-auto h-full min-h-screen;
+  .plugin-nav {
+    width: calc(100% - 160px);
+    @apply z-50 left-0;
+    margin-left: 160px;
+  }
+
+  .log-details svg {
+    @apply rotate-180;
+  }
+  .log-details[open] svg {
+    @apply rotate-0;
+  }
+  .log-details summary {
+    @apply cursor-pointer;
+  }
+}
+
+@media (max-width: 960px) {
+  #square-woo-sync .plugin-nav {
+    width: calc(100% - 36px);
+  }
+}
+
+@media (max-width: 982px) {
+  #square-woo-sync .plugin-nav {
+    width: 100%;
+  }
+}
+
+/* Additional styles */
+#adminmenu div.wp-menu-image {
+  display: flex;
+  justify-content: center;
+  padding: 4px !important;
+  padding-top: 0px !important;
+}
+
+/* Additional styles */
+.toast-position {
+  top: 8rem !important;
+}
+
+#wpbody-content {
+  @apply pb-0;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: auto 400px;
+  align-items: start;
+}
+
+.html-block a {
+  @apply text-sky-400 underline;
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }  
+}
+
+
+.pro-badge {
+  position: absolute;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 232 255 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(126 34 206 / var(--tw-text-opacity));
+}

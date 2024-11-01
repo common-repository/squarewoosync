@@ -1,0 +1,210 @@
+# Copyright (c) 2024 Liam Hillier. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Square Sync for Woocommerce 5.0.2\n"
+"Report-Msgid-Bugs-To: https://github.com/LiamHillier/square-woo-sync/issues\n"
+"Last-Translator: liam@pixeldev.com.au\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-08T10:18:50+11:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: squarewoosync\n"
+
+#. Plugin Name of the plugin
+#: squarewoosync.php
+msgid "Square Sync for Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: squarewoosync.php
+msgid "https://squaresyncforwoo.com"
+msgstr ""
+
+#. Description of the plugin
+#: squarewoosync.php
+msgid "Easily Sync your WooCommerce Square data in real-time with the SquareSync for Woo. Stock, titles, descriptions, orders and more."
+msgstr ""
+
+#. Author of the plugin
+#: squarewoosync.php
+msgid "SquareSync for Woo"
+msgstr ""
+
+#: includes/Abstracts/RESTController.php:35
+msgid "Nonce verification failed"
+msgstr ""
+
+#: includes/Admin/Menu.php:43
+msgid "SquareSync"
+msgstr ""
+
+#: includes/Admin/Menu.php:46
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menu.php:47
+msgid "Products"
+msgstr ""
+
+#: includes/Admin/Menu.php:48
+msgid "Customers"
+msgstr ""
+
+#: includes/Admin/Menu.php:49
+msgid "Orders"
+msgstr ""
+
+#: includes/Admin/Menu.php:50
+#: squarewoosync.php:208
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Menu.php:51
+msgid "GO PRO"
+msgstr ""
+
+#: includes/Logger/Logger.php:152
+msgid "Error fetching logs from the database."
+msgstr ""
+
+#: includes/REST/CustomersController.php:98
+msgid "Customers processed"
+msgstr ""
+
+#: includes/REST/CustomersController.php:680
+msgid "Customers matched successfully"
+msgstr ""
+
+#: includes/REST/LogController.php:90
+msgid "Unable to retrieve logs"
+msgstr ""
+
+#: includes/REST/LogController.php:109
+msgid "Invalid log parameters"
+msgstr ""
+
+#: includes/REST/LogController.php:111
+msgid "Log parameters are missing or incomplete"
+msgstr ""
+
+#: includes/REST/LogController.php:117
+msgid "success"
+msgstr ""
+
+#: includes/REST/LogController.php:119
+msgid "Invalid argument: "
+msgstr ""
+
+#: includes/REST/LogController.php:125
+msgid "Exception encountered: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:88
+#: includes/REST/OrdersController.php:90
+msgid "Square Orders error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:99
+msgid "Square Orders API error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:101
+#: includes/REST/OrdersController.php:111
+msgid "Square API error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:109
+msgid "Square Payment API error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:124
+msgid "Order and Transaction created in Square, receipt: #"
+msgstr ""
+
+#: includes/REST/OrdersController.php:141
+msgid "Order created in Square"
+msgstr ""
+
+#: includes/REST/OrdersController.php:148
+msgid "Failed to create order: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:628
+msgid "Woocommerce not installed or activated"
+msgstr ""
+
+#: includes/REST/ProductMatcher.php:80
+msgid "Invalid payload"
+msgstr ""
+
+#: includes/REST/ProductMatcher.php:138
+msgid "Products matched successfully"
+msgstr ""
+
+#: includes/Square/SquareImport.php:65
+msgid "Successfully synced: "
+msgstr ""
+
+#: includes/Square/SquareImport.php:65
+msgid " from Square to Woo"
+msgstr ""
+
+#: includes/Square/SquareInventory.php:101
+msgid "Unknown Option"
+msgstr ""
+
+#: includes/Square/SquareInventory.php:102
+msgid "Unknown Value"
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:684
+msgid "Sync this product to Square"
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:685
+msgid "Sync to Square"
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:686
+msgid "Update the product and then run the above sync. For a full tutorial, please read the documentation."
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:688
+msgid "No Square product ID found. Unable to sync to square. Only products imported from square can be synced."
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:689
+msgid "Export to Square"
+msgstr ""
+
+#: includes/Woo/WooImport.php:29
+msgid "WooCommerce must be installed and activated."
+msgstr ""
+
+#: includes/Woo/WooImport.php:67
+msgid "Failed to import products: "
+msgstr ""
+
+#: squarewoosync.php:120
+msgid "SquareWooSync requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: squarewoosync.php:209
+msgid "Documentation"
+msgstr ""
+
+#: squarewoosync.php:211
+msgid "Go Pro"
+msgstr ""
+
+#: squarewoosync.php:255
+msgid "Square Product ID"
+msgstr ""
+
+#: squarewoosync.php:257
+msgid "Enter the Square product ID here."
+msgstr ""

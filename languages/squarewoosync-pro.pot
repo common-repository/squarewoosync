@@ -1,0 +1,248 @@
+# Copyright (C) 2024 SquareWooSync
+# This file is distributed under the same license as the SquareWooSync Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SquareWooSync Pro 3.8.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/square-woo-sync\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-11T17:11:15+10:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: squarewoosync\n"
+
+#. Plugin Name of the plugin
+#: squarewoosync.php
+msgid "SquareWooSync Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: squarewoosync.php
+msgid "https://squaresyncforwoo.com"
+msgstr ""
+
+#. Description of the plugin
+#: squarewoosync.php
+msgid "Automate inventory syncing with Square and WooCommerce. Dynamic data importing supports variations, images, categories and more."
+msgstr ""
+
+#. Author of the plugin
+#: squarewoosync.php
+msgid "SquareWooSync"
+msgstr ""
+
+#: includes/Abstracts/RESTController.php:38
+msgid "You do not have permissions to view this data."
+msgstr ""
+
+#: includes/Admin/Menu.php:43
+msgid "SWS Pro"
+msgstr ""
+
+#: includes/Admin/Menu.php:46
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menu.php:47
+msgid "Products"
+msgstr ""
+
+#: includes/Admin/Menu.php:48
+msgid "Orders"
+msgstr ""
+
+#: includes/Admin/Menu.php:49
+#: squarewoosync.php:187
+msgid "Settings"
+msgstr ""
+
+#: includes/Common/SquareLicense.php:65
+msgid "Update Check"
+msgstr ""
+
+#: includes/Common/SquareLicense.php:84
+msgid "Update Checking.."
+msgstr ""
+
+#: includes/Cron/CronManager.php:170
+msgid "Running scheduled update to"
+msgstr ""
+
+#: includes/Cron/CronManager.php:267
+msgid "All products successfully synced to Square"
+msgstr ""
+
+#: includes/Cron/CronManager.php:269
+msgid "Failed to sync to Square"
+msgstr ""
+
+#: includes/Logger/Logger.php:155
+msgid "Error fetching logs from the database."
+msgstr ""
+
+
+#: includes/REST/LogController.php:90
+msgid "Unable to retrieve logs"
+msgstr ""
+
+#: includes/REST/LogController.php:109
+msgid "Invalid log parameters"
+msgstr ""
+
+#: includes/REST/LogController.php:111
+msgid "Log parameters are missing or incomplete"
+msgstr ""
+
+#: includes/REST/LogController.php:117
+msgid "success"
+msgstr ""
+
+#: includes/REST/LogController.php:119
+msgid "Invalid argument: "
+msgstr ""
+
+#: includes/REST/LogController.php:125
+msgid "Exception encountered: "
+msgstr ""
+
+#: includes/REST/LoyaltyController.php:86
+msgid "Invalid licence key"
+msgstr ""
+
+#: includes/REST/OrdersController.php:88
+#: includes/REST/OrdersController.php:90
+msgid "Square Orders error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:99
+msgid "Square Orders API error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:101
+#: includes/REST/OrdersController.php:111
+msgid "Square API error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:109
+msgid "Square Payment API error: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:124
+msgid "Order and Transaction created in Square, receipt: #"
+msgstr ""
+
+#: includes/REST/OrdersController.php:141
+msgid "Order created in Square"
+msgstr ""
+
+#: includes/REST/OrdersController.php:148
+msgid "Failed to create order: "
+msgstr ""
+
+#: includes/REST/OrdersController.php:556
+msgid "Woocommerce not installed or activated"
+msgstr ""
+
+#: includes/REST/ProductMatcher.php:82
+msgid "Invalid payload"
+msgstr ""
+
+#: includes/REST/ProductMatcher.php:140
+msgid "Products matched successfully"
+msgstr ""
+
+#: includes/REST/ProductMatcher.php:142
+msgid "Invalid license key"
+msgstr ""
+
+#: includes/Square/SquareImport.php:50
+msgid "Successfully synced: "
+msgstr ""
+
+#: includes/Square/SquareImport.php:50
+msgid " from Square to Woo"
+msgstr ""
+
+#: includes/Square/SquareInventory.php:101
+msgid "Unknown Option"
+msgstr ""
+
+#: includes/Square/SquareInventory.php:102
+msgid "Unknown Value"
+msgstr ""
+
+#: includes/Woo/CreateProduct.php:264
+msgid "Variation SKU matches parent SKU or another variation SKU, not setting SKU for variation."
+msgstr ""
+
+#: includes/Woo/CreateProduct.php:443
+msgid "Error creating category:"
+msgstr ""
+
+#: includes/Woo/CreateProduct.php:493
+msgid "Error creating attribute:"
+msgstr ""
+
+#: includes/Woo/CreateProduct.php:522
+msgid "Error creating term:"
+msgstr ""
+
+#: includes/Woo/CreateProduct.php:562
+msgid "Failed to import image:"
+msgstr ""
+
+#: includes/Woo/CreateProduct.php:587
+msgid "Database query error:"
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:392
+msgid "Sync this product to Square"
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:393
+msgid "Sync to Square"
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:394
+msgid "Update the product and then run the above sync. For a full tutorial, please read the documentation."
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:396
+msgid "No Square product ID found. Unable to sync to square. Only products imported from square can be synced."
+msgstr ""
+
+#: includes/Woo/SyncProduct.php:397
+msgid "Export to Square"
+msgstr ""
+
+#: includes/Woo/WooImport.php:28
+msgid "WooCommerce must be installed and activated."
+msgstr ""
+
+#: includes/Woo/WooImport.php:66
+msgid "Failed to import products: "
+msgstr ""
+
+#: squarewoosync.php:123
+msgid "SquareWooSync requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: squarewoosync.php:188
+msgid "Documentation"
+msgstr ""
+
+#: squarewoosync.php:226
+msgid "The free version of SquareWooSync has been deactivated because the Pro version is active."
+msgstr ""
+
+#: squarewoosync.php:247
+msgid "Square Product ID"
+msgstr ""
+
+#: squarewoosync.php:249
+msgid "Enter the Square product ID here."
+msgstr ""
